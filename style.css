@@ -1,0 +1,57 @@
+@font-face{
+    font-family: 'Poppins';
+    src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+html, body{
+    width: 50%;
+    margin: auto;
+    background-color: #F8F0FA;
+}
+h1{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: Poppins;
+    text-align: center;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-size: 13px;
+    font-family: Poppins;
+    text-align: left;
+}
+#a{
+    text-decoration: none;
+}
+.container {
+    width: 400px;
+    padding: auto;
+}
+#inputField {
+    width: 347px;
+    height: 42.5px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 22px;
+    vertical-align: center;
+    font-family: Poppins;
+}
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: #804fb3;
+}
+.to-dos {
+    margin-top: 38px;
+}
+.paragraph-styling {
+    margin-top: 6px;
+    cursor: pointer;
+    font-size: 19px;
+    font-family: Poppins;
+    text-align: left;
+}
