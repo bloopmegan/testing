@@ -1,28 +1,30 @@
 html, body{
     width: 400px;
     margin: 0 auto;
-    background-color: #F8F0FA;
+    background-image: linear-gradient(#CE9FFC, #7367F0);
 }
 h1{
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 10px;
-    font-family: 'Poppins';
+    padding-top: 11px;
     text-align: center;
-    font-size: 43px;
+    font-size: 60px;
 }
 p{
     margin-top: 10px;
     margin-bottom: 7px;
     font-size: 15px;
-    font-family: 'Poppins';
+    text-align: left;
+}
+#p1{
+    margin-top: 6px;
+    margin-bottom: 13px;
     text-align: left;
 }
 #a{
     text-decoration: none;
-    margin-bottom: 100px;
     font-size: 11px;
-    font-family: 'Poppins';
-    text-align: left;
+    font-size: 10px;
 }
 .container {
     width: 400px;
@@ -30,21 +32,22 @@ p{
 #inputField {
     width: 347px;
     height: 42.5px;
-    border: 1px solid black;
     outline: none;
     font-size: 23px;
     vertical-align: center;
-    font-family: 'Poppins';
     background-color: #e9d4fA;
+    border-radius: 25px;
+    border: 5px solid #e9d4fA;
 }
 #addToDo {
     height: 50px;
     width: 50px;
-    border: 1px solid black;
+    border: 1px solid #804fb3;
     vertical-align: center;
     font-size: 25px;
     color: white;
     background-color: #804fb3;
+    border-radius: 50px;
 }
 .to-dos {
     margin-top: 38px;
